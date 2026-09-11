@@ -1,0 +1,5 @@
+Move-Item "F:\Engineering_Sector\02.Development\04.Application_development\Multi-platform_application\By_Flutter\Learning_Output\Learning_Based_Flutter\flutter_basic_state_management" "F:\Dev\Flutter\state_mgmt"
+cd F:\Dev\Flutter\state_mgmt
+subst X: "F:\Engineering_Sector\02.Development\04.Application_development\Multi-platform_application\By_Flutter\Learning_Output\Learning_Based_Flutter"
+cd X:\flutter_basic_state_management
+flutter clean; flutter pub get; flutter run -d chrome
